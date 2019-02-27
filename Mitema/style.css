@@ -1,0 +1,183 @@
+/*
+Theme Name: Mi tema Sergi Gomis
+Author: Sergi Gomis
+Author: Sergi Gomis
+Description: Mi tema hecho desde cero
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: Aun no
+*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #dfcfcb;
+    font-family: Helvetica;
+}
+.my-logo,
+footer {
+  width: 120%;
+  padding-left: 2%;
+  margin-bottom: 8px;
+  background-color: #78baff;
+  border: 1px solid #78baff;
+}
+body > header > h1 > a {
+color: #ffffff;
+font-weight: 400;
+}
+article > header {
+
+}
+h2 {
+    vertical-align: center;
+text-align: right;
+}
+footer {
+  margin-top: 4px;
+  vertical-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 'Margin: 0 auto' centers block content on the page */
+.wrap {
+  width: 99%;
+  margin: 0 auto;
+}
+
+.content-area {
+  display: inline-block;
+}
+
+.content-thin {
+    width: 70%;
+}
+
+.content-full-width {
+    width: 100%;
+}
+
+.content-area,
+.primary-sidebar {
+  display: inline-block;
+}
+
+.primary-sidebar {
+  width: 25%;
+  padding: 3%;
+  text-align: center;
+  background-color: #ececec;
+}
+
+.article-loop {
+    width: 45%;
+    text-align: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-full {
+  width: 99%;
+  padding: 1%;
+}
+
+.article-loop,
+.article-full {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFF;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+@media screen and (max-width: 400px) {
+  .content-area,
+  .primary-sidebar {
+    width: 100%;
+  }
+}
+
+/* calendar widget */
+.widget_calendar {float: left;}
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: right; color: #333; font-size: 12px; margin-top: 10px; margin-bottom: 12px; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border:  2px solid   #ece5e3  ; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background:  #746b6a ; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+.menu-menu-container ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+  float: center;
+}
+
+.menu-menu-container ul li {
+ background-color: #576be7  ;
+width:20%
+
+}
+.menu-menu-container ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+.menu-menu-container ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+}
+
+
+.menu-menu-container ul li:hover {
+ background:#2c3153;
+}
+
+
+
+.menu-menu-container ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#2c3153;
+ padding:0;
+}
+
+
+
+.menu-menu-container ul ul li {
+ float:none;
+ width:150px
+}
+
+
+
+.menu-menu-container ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+
+
+.menu-menu-container ul li:hover > ul {
+ display:block;
+}
+
